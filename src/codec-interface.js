@@ -1,4 +1,4 @@
-const CID = require('cids')
+const CID = require('./cids')
 
 const links = function * (decoded, path = []) {
   for (let key of Object.keys(decoded)) {

@@ -2,4 +2,6 @@
 
 import type { Codec, Format } from "./codec-interface.js"
 
-declare export default function getCodec<a>(Format): Codec<a>
+declare function getCodec<a>(Format): Codec<a>
+
+module.exports = getCodec

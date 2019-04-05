@@ -29,3 +29,5 @@ declare class CID<a> {
 }
 
 export type { CID }
+
+module.exports = CID

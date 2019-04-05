@@ -22,7 +22,7 @@
     "test": "tap test/test-*.js --cov",
     "lint": "eslint index.js src/*.js test/*.js",
     "type-check": "flow check",
-    "pretest": "npm run lint"
+    "pretest": "npm run type-check"
   },
   "repository": {
     "type": "git",
